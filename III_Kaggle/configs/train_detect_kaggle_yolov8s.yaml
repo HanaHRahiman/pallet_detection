@@ -1,0 +1,13 @@
+model: yolov8s.pt
+data_source: II/data/raw/kaggle/data.yaml
+imgsz: 960
+epochs: 1
+batch: 16
+device: auto
+workers: 0
+optimizer: auto
+project: III_kaggle/runs/detect
+name: kaggle_yolov8s_baseline
+save_period: 10
+plots: true
+verbose: true

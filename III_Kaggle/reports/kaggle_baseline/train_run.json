@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-04-01T19:09:19.750757Z",
+  "model": "yolov8s.pt",
+  "source_yaml": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\II\\data\\raw\\kaggle\\data.yaml",
+  "resolved_data_yaml": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\III_kaggle\\reports\\kaggle_baseline\\kaggle_data_resolved.yaml",
+  "device": "cpu",
+  "train_images": 1755,
+  "val_images": 47,
+  "test_images": 22,
+  "config": {
+    "imgsz": 960,
+    "epochs": 1,
+    "batch": 16,
+    "device": "cpu",
+    "workers": 0,
+    "optimizer": "auto",
+    "project": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\III_kaggle\\runs\\detect",
+    "name": "kaggle_yolov8s_baseline",
+    "save_period": 10,
+    "plots": true,
+    "verbose": true,
+    "data": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\III_kaggle\\reports\\kaggle_baseline\\kaggle_data_resolved.yaml"
+  }
+}

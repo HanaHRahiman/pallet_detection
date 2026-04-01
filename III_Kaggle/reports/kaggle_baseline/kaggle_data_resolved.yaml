@@ -1,0 +1,6 @@
+train: C:\Users\hanar\Desktop\SDP-withLOCO\II\data\raw\kaggle\train\images
+val: C:\Users\hanar\Desktop\SDP-withLOCO\II\data\raw\kaggle\valid\images
+test: C:\Users\hanar\Desktop\SDP-withLOCO\II\data\raw\kaggle\test\images
+nc: 1
+names:
+- pallet
