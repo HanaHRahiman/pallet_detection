@@ -1,0 +1,33 @@
+{
+  "dataset": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\II\\OBB\\data\\roboflo2_pallet_obb_v3",
+  "task": "obb",
+  "classes": [
+    "pallet"
+  ],
+  "manual_fixes": {
+    "box_only_corrected": 102,
+    "box_only_removed": 15
+  },
+  "splits": {
+    "train": {
+      "images": 1730,
+      "objects": 2761,
+      "missing_labels": 0,
+      "missing_images_for_labels": 0
+    },
+    "valid": {
+      "images": 512,
+      "objects": 820,
+      "missing_labels": 0,
+      "missing_images_for_labels": 0
+    },
+    "test": {
+      "images": 237,
+      "objects": 337,
+      "missing_labels": 0,
+      "missing_images_for_labels": 0
+    }
+  },
+  "total_images": 2479,
+  "total_objects": 3918
+}

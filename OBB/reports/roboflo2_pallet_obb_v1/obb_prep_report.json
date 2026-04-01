@@ -1,0 +1,30 @@
+{
+  "source_dataset": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\II\\data\\cleaned\\roboflo2_pallet_seg_v1",
+  "output_dataset": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\II\\OBB\\data\\roboflo2_pallet_obb_v1",
+  "source_task": "segment",
+  "output_task": "obb",
+  "objects_raw": 3955,
+  "objects_kept": 3955,
+  "global_stats": {
+    "objects_converted": 3955,
+    "objects_kept": 3955,
+    "objects_raw": 3955
+  },
+  "split_stats": {
+    "train": {
+      "images": 1753,
+      "objects_kept": 2798,
+      "objects_raw": 2798
+    },
+    "valid": {
+      "images": 515,
+      "objects_kept": 819,
+      "objects_raw": 819
+    },
+    "test": {
+      "images": 238,
+      "objects_kept": 338,
+      "objects_raw": 338
+    }
+  }
+}

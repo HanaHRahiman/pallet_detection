@@ -1,0 +1,61 @@
+{
+  "source_dataset": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\II\\data\\raw\\roboflo2",
+  "output_dataset": "C:\\Users\\hanar\\Desktop\\SDP-withLOCO\\II\\OBB\\data\\roboflo2_pallet_obb_v2",
+  "source_task": "segment",
+  "output_task": "obb",
+  "keep_classes": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+  ],
+  "id_map": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6
+  },
+  "target_names": [
+    "-euro-pallet",
+    "1",
+    "Wooden-Pallet",
+    "palette",
+    "pallet",
+    "pallet_side",
+    "pallet_top"
+  ],
+  "objects_raw": 3952,
+  "objects_kept": 3952,
+  "global_stats": {
+    "converted_box_to_polygon": 161,
+    "objects_converted": 3952,
+    "objects_kept": 3952,
+    "objects_raw": 3952
+  },
+  "split_stats": {
+    "train": {
+      "converted_box_to_polygon": 128,
+      "images": 1744,
+      "objects_kept": 2797,
+      "objects_raw": 2797
+    },
+    "valid": {
+      "converted_box_to_polygon": 17,
+      "images": 512,
+      "objects_kept": 817,
+      "objects_raw": 817
+    },
+    "test": {
+      "converted_box_to_polygon": 16,
+      "images": 238,
+      "objects_kept": 338,
+      "objects_raw": 338
+    }
+  }
+}
