@@ -1,7 +1,0 @@
-path: C:\Users\hanar\Desktop\SDP-withLOCO\II\OBB\data\roboflo2_pallet_obb_v4
-train: train/images
-val: valid/images
-test: test/images
-nc: 1
-names:
-- pallet
